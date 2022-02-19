@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("sand-timer.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin :0;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 4rem;
+    text-align: right;
+    margin-right: 4rem;
+    margin-top: -20rem;
+}
+
+.countdown-cont {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    color: antiquewhite;
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    color: blanchedalmond;
+    font-size: 1rem;
+}
