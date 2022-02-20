@@ -18,10 +18,10 @@ body {
 
 h1 {
     color: aliceblue;
-    font-size: 4rem;
+    font-size: 4vw;
     text-align: right;
-    margin-right: 4rem;
-    margin-top: -20rem;
+    margin-right: 40px;
+    margin-top: -300px;
 }
 
 .countdown-cont {
@@ -34,7 +34,8 @@ h1 {
 
 .big-text {
     color: antiquewhite;
-    font-size: 8rem;
+    -webkit-text-stroke: 0.1rem black;
+    font-size: 6vw;
     font-weight: bold;
     margin: 0 2rem;
 }
@@ -44,6 +45,7 @@ h1 {
 }
 
 .countdown-el span {
-    color: blanchedalmond;
-    font-size: 1rem;
+    color: purple;
+    font-size: 1.3rem;
+    -webkit-text-stroke: 0.01rem rgb(255, 255, 255);
 }
